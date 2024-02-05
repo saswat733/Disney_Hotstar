@@ -1,0 +1,86 @@
+.login-sections{
+    /* width: 60%; */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 600px){
+    .login-sections{
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+}
+
+.login-section-1 {
+    width: 600px;
+
+}
+@media only screen and (max-width: 600px){
+    .login-section-1{
+        width: 350px;
+    }
+}
+.login-section-2{
+    width: 600px;
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px){
+    .login-section-2{
+        width: 350px;
+        background-color: blue;
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+}
+
+.login-section-3{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 9px;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+    margin-top: 5px;
+    width: 100%;
+}
+@media only screen and (max-width: 600px){
+    .login-section-3{
+        text-align: center;
+        font-weight: lighter;
+        font-size: 7px;
+        letter-spacing: 0.1px;
+        word-spacing: -0.3px;
+        margin-top: 10px;
+        width: 350px;
+    }
+   
+}
+
+.login-section-4{
+    width: 600px;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 600px){
+    .login-section-4{
+        width: 350px;
+        margin-top: 10px;
+    }
+}
