@@ -76,7 +76,11 @@
 
 .login-section-4{
     width: 600px;
+    /* border: 1px solid white; */
     margin-top: 10px;
+}
+.login-section-4 img{
+    width: 100%;
 }
 @media only screen and (max-width: 600px){
     .login-section-4{
